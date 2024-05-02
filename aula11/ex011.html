@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania</title>
+</head>
+<body>
+    <h1>Cidadania</h1>
+    Pais: <input type="text" id="pais">
+    <input type="button" value="Saber" onclick="saber()">
+    <div id="resp"></div>
+
+    <script>
+        function saber(){
+         var cid = document.getElementById('pais').value
+         var res = document.getElementById('resp')
+         
+        res.innerHTML = `Você mora no ${cid}`
+        if (cid.toUpperCase() =='BRASIL'){
+            res.innerHTML += '<p>Você é Brasileiro</p>' 
+        }else{
+            res.innerHTML += '<p>Você é Estrangeiro</p>'
+        }
+        
+    }
+    </script>
+</body>
+</html>

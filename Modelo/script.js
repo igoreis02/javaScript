@@ -1,0 +1,1 @@
+var hora = new Date

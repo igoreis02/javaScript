@@ -1,0 +1,76 @@
+Data types 
+
+number 
+   infinity
+   NaN (nao e numero)
+string
+Boolean
+null
+undefined
+object
+   Array
+function
+
+Tratamento de Dados 
+
+Converter uma string em numero 
+
+O comando prompt já recebe uma string
+ 
+-> Conversao de string para numero 
+	Number.parseint()
+	Number.parseFloat()
+	Number() Faz a conversao automatica 
+
+-> conversao de Número para String
+	String()
+	Variavel que deseja converter.toString()
+	
+-> Formatação de Strings
+	var s = 'JavaScript
+	-> Concatenação + 
+		'Eu estou aprendendo' + s
+	-> Templades Strings
+		'Es estou aprendendo ${s}'  // funciona somente com crase 
+
+	s.length -> para saber o tamanho da string 
+	s.toUpperCase() // Maiusculas
+	s.toLowerCase() // minisculas
+	
+	var n1 = 1545.5
+	n1.toFixed(2) colocando duas casas decimais 
+	n1.toFixed(2).replace('.',',') Trocando o ponto por virculaa
+	n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})  lOCALIZANDO ESSA STRING PARA O BRASIL O ESTILO É DINHEIRO EM REAL BRL 
+	
+document.write() // escreva no documento 
+
+
+OPERADORES 
+
+	Aritméticos 
+		+ , - , * , / , % , **
+		ordem de precedência
+		() , ** , * / % , + -  
+	Atribuição
+		= (recebe) 
+	auto-atribuições
+		n = n + 4 
+		n+=4 
+	Relacionais
+		== (igual), != (diferente) , > (Maior), < (menor), <= (Menor ou igual) , >= (Maior ou igual )]
+	operadores de identidade
+		5 == '5'  true 
+		5 === '5' testa se é do mesmo tipo entao ele é falso
+	Lógicos 
+		! (nao) , && (e, conjunção) , || (ou, dijunção) 	
+	Ternário
+		Teste ? true :false 
+		media>=7.0 ? "Aprovado" : "Reprovado" 
+		var res = 8 % 2 == 0 ? 5 : 9 
+ 
+
+Conhecendo o DOM 
+
+	Document Object Model (DOM) -> TRATAMENTO VISUAIS 
+	
+
